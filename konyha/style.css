@@ -1,9 +1,9 @@
 body {
-background-color: #FFF
+background-color: #c7254e
 }
 
 * { 
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  /*border: 1px solid rgba(0, 0, 0, 0.3);*/
 }
 
 #boss {
@@ -19,12 +19,12 @@ background-color: #FFF
   top: 0;
   z-index: 999;
   width: 100%;
-  <!-- border: 1px solid rgba(0, 0, 0, 0.3); -->
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .navigation ul {
   padding: 0;
-  <!-- border: 1px solid rgba(0, 0, 0, 0.3); -->
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .navigation li {
@@ -47,7 +47,6 @@ background-color: #FFF
 	top: 0px;
 	width: 65%;
 	height: 450px;
-	overflow: hidden;
 }
 .content-header {
 	background-image: url("images/curry.jpg");
@@ -60,19 +59,20 @@ background-color: #FFF
 .content-body-header {
 	margin: 0 auto;
 	width: 100%;
+        background-color: #fff;
 	}
 .content-body {
 	margin: 0 auto;
 	width: 100%;
 	position: relative;
-
+        background-color: #fff;
 	}
 .content-video {
 	margin: 0 auto;
 	width: 100%;
 	position: relative;
 	text-align: center;
-
+        background-color: #fff;
 	}
 h1 {
   background-color: #FFAB00;
