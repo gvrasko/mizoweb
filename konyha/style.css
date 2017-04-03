@@ -11,15 +11,15 @@ background-color: #c7254e
 }
 
 .navigation {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #000;
   height: auto;
   text-align: center;
   position: relative;
   left: 0;
   top: 0;
   z-index: 999;
-  width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 65%;
+  margin: 0 auto;
 }
 
 .navigation ul {
@@ -28,14 +28,14 @@ background-color: #c7254e
 }
 
 .navigation li {
-  color: #666666;
+  color: #FFF;
   display: inline-block;
   font-family: 'Lobster', sans-serif;
   font-size: 20px;
   font-weight: 100;
   letter-spacing: 2px;
   margin: 10px;
- 
+
 }
 
 .content-box {
