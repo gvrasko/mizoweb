@@ -1,0 +1,38 @@
+body {
+  background: #35577D;
+}
+
+/* unvisited link */
+a:link {
+    color: #fae596;
+}
+
+/* visited link */
+a:visited {
+    color: #fae596;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3fb0ac;
+}
+
+/* selected link */
+a:active {
+    color: #173e43;
+}
+h1 {
+  color: #fae596;
+}
+h2 {
+  font-family: Comic Sans MS, Georgia, Arial;
+  color: #dddfd4;
+  }
+h3 {
+  font-family: Comic Sans MS, Georgia, Arial;
+  color: #dddfd4;
+  }
+p {
+  font-size: 16px;
+  color: #dddfd4;
+}
