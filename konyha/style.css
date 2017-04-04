@@ -77,8 +77,10 @@ li a:hover {
     height: 500px;
 }
 
-.content-frame {
-    background: #FFF;
+.content {
+    width: 95%;
+    margin: auto;
+    background: #d0e9c6;
     
 }
 .content-body {
