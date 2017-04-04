@@ -1,129 +1,120 @@
 body {
-background-color: #c7254e
+    margin: 0;
+    padding: 0;
+    background-color: #c7254e
 }
-
-* { 
-  /*border: 1px solid rgba(0, 0, 0, 0.3);*/
-}
-
-#boss {
-	
-}
-
 .navigation {
-  background-color: #000;
-  height: auto;
-  text-align: center;
-  position: relative;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  width: 65%;
-  margin: 0 auto;
+    background-color: #FFF;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 65%;
+    margin: auto;
 }
 
 .navigation ul {
-  padding: 0;
-  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .navigation li {
-  color: #FFF;
-  display: inline-block;
-  font-family: 'Lobster', sans-serif;
-  font-size: 20px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  margin: 10px;
+    color: #000;
+    display: inline-block;
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 10px;
 
 }
 
 .content-box {
-	background: #000;
-	color: #000;
-	height: 500px;
-	margin: 0 auto;
-	position: relative;
-	top: 0;
+    background: #000;
+    color: #000;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
     bottom: 0;
-	width: 65%;
-	height: 450px;
+    width: 65%;
+    height: 450px;
 }
 .content-header {
-	background-image: url("images/curry.jpg");
-	background-position: center;
-	background-size: cover;
-	position: relative;
-	top: -50px;
+    background-image: url("images/curry.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -50px;
     height: 500px;
 }
 .content-body-header {
-	margin: 0 auto;
-	width: 100%;
-        background-color: #fff;
-	}
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+}
 .content-body {
-	margin: 0 auto;
-	width: 100%;
-	position: relative;
-        background-color: #fff;
-	}
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
 .content-video {
-	margin: 0 auto;
-	width: 100%;
-	position: relative;
-	text-align: center;
-        background-color: #fff;
-	}
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
 h1 {
-  background-color: #FFAB00;
-  color: #000;
-  font-family: 'Oswald', sans-serif;
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 40px;
-  margin: 0px;
-  padding: 20px;
-  position: relative;
-  text-transform: uppercase;
-  top: 120px;
-  width: 53%; 
-  /*Ide kéne egy olyan megoldás, hogy a szöveg hosszúságához mérten lője be a csík hosszúságát*/
+    background-color: #FFAB00;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    text-transform: uppercase;
+    top: 120px;
+    width: 53%; 
+    /*Ide kéne egy olyan megoldás, hogy a szöveg hosszúságához mérten lője be a csík hosszúságát*/
 }
 
 h2 {
-  color: #000;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  position: relative;
-  left: 0px;
-  margin: 0;
-  text-transform: uppercase;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    left: 0px;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 h3 {
-  color: #000;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 100;
-  position: relative;
-  left: 0px;
-  letter-spacing: 2px;
-  margin: 0;
-  text-transform: uppercase;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    position: relative;
+    left: 0px;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 p {
-  color: #000;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: 100;
-  line-height: 34px;
-  min-width: 200px;
-  max-width: 95%;
-  min-height: 200px;
-  position: relative;
-  left: 30px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 34px;
+    min-width: 200px;
+    max-width: 95%;
+    min-height: 200px;
+    position: relative;
+    left: 30px;
 }
