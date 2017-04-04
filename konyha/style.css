@@ -3,30 +3,41 @@ body {
     padding: 0;
     background-color: #c7254e
 }
-.navigation {
-    background-color: #FFF;
-    height: auto;
+.logo {
+    background-color: #c7254e;
     text-align: center;
     position: relative;
-    left: 0;
-    top: 0;
     z-index: 999;
     width: 65%;
+    height: 80px;
     margin: auto;
 }
 
-.navigation ul {
+.menu {
+    background-color: #FFF;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: flex;
 }
 
-.navigation li {
-    color: #000;
+.menu ul {;
+    
+}
+.menu li {
+    
     display: inline-block;
     font-family: 'Lobster', sans-serif;
     font-size: 20px;
     font-weight: 100;
     letter-spacing: 2px;
     margin: 10px;
-
+    position: relative;
+   
 }
 
 .content-box {
@@ -45,7 +56,7 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
-    top: -50px;
+    top: 0px;
     height: 500px;
 }
 .content-body-header {
