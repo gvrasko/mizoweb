@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c7254e
+}
+
+.logo {
+    background-color: #FFAB00;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+    width: 65%;
+    height: 80px;
+    margin: auto;
+}
+.menu {
+    background-color: #FFF;
+    text-align: center;
+    margin: auto;
+    width: 65%;
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.menu li {
+    
+    display: inline-block;
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 10px;
+    position: relative;
+    float: left;
+}
+
+li a {
+    display: compact;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #c7254e;
+    color: white;
+}
+
+.content-box {
+    background: #000;
+    color: #000;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 65%;
+    height: 450px;
+}
+.content-header {
+    background-image: url("images/curry.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    height: 500px;
+}
+
+.content-frame {
+    background: #FFF;
+    
+}
+.content-body {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+h1 {
+    background-color: #FFAB00;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px;
+    margin: 0px;
+    padding: 20px;
+    position: relative;
+    text-transform: uppercase;
+    top: 120px;
+    width: 53%; 
+    /*Ide kéne egy olyan megoldás, hogy a szöveg hosszúságához mérten lője be a csík hosszúságát*/
+}
+
+h2 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    left: 0px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    position: relative;
+    left: 0px;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+p {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 34px;
+    min-width: 200px;
+    max-width: 100%;
+    min-height: 200px;
+    position: relative;
+}
