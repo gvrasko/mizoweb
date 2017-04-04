@@ -13,7 +13,7 @@ body {
     height: 100px;
     margin: auto;
 }
-.menu {
+.menu { /*Itt meg kéne oldani, hogy ha átméretezzük kicsire a böngészők, akkor a szöveg ne lógjon ki a keretből. Arányosan csökkenjen a mérete a kerettel.*/
     background-color: #398439;
     text-align: center;
     margin: auto;
@@ -31,7 +31,6 @@ body {
     background-color: #c7254e;
 }
 .menu li {
-    
     display: inline-block;
     font-family: 'Lobster', sans-serif;
     font-size: 30px;
@@ -79,18 +78,20 @@ li a:hover {
     background-color: #FFAB00;
 }
 .content {
-    width: 95%;
+    width: 97%;
     margin: auto;
     background: #FFF;
 }
 
 .videoplayer {
-    text-align: center
-    
+    text-align: center;
+
 }
 
+
+
 h1, h2, h3, p {
-    font-family: 'Roboto', sans-serif;
+    font-family: Lato, sans-serif;
     
 }
 
@@ -121,7 +122,7 @@ h2 {
 
 h3 {
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
     left: 0px;
     letter-spacing: 2px;
@@ -130,9 +131,6 @@ h3 {
 
 p {
     color: #000;
-    font-size: 20px;
-    line-height: 26px;
-    min-width: 200px;
     max-width: 100%;
     min-height: 200px;
     position: relative;
