@@ -10,18 +10,16 @@ body {
     position: relative;
     z-index: 999;
     width: 65%;
-    height: 80px;
+    height: 100px;
     margin: auto;
 }
 .menu {
-    background-color: #FFF;
+    background-color: #398439;
     text-align: center;
     margin: auto;
     width: 65%;
+    height: 105%;
     font-family: 'Lobster', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 2px;
     display: flex;
 }
 
@@ -30,23 +28,20 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #c7254e;
 }
 .menu li {
     
     display: inline-block;
     font-family: 'Lobster', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 2px;
-    margin: 10px;
-    position: relative;
-    float: left;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin: auto;
 }
 
 li a {
     display: compact;
-    color: black;
+    color: #FFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,7 +49,7 @@ li a {
 
 li a:hover {
     /* background-color: #c7254e; - legyen kocka háttér a gombnál */
-    color: #c7254e;
+    color: yellow;
 }
 
 .content-box {
@@ -76,67 +71,70 @@ li a:hover {
     top: 0px;
     height: 500px;
 }
-
-.content {
-    width: 95%;
-    margin: auto;
-    background: #d0e9c6;
-    
-}
 .content-body {
     margin: 0 auto;
     width: 100%;
     position: relative;
-    background-color: #fff;
+    top: -20px; /*Ide csak beigazítottam, de kéne egy olyan megoldást találni, ami automatikusan beigazítja az elötte lévő div után*/
+    background-color: #FFAB00;
 }
+.content {
+    width: 95%;
+    margin: auto;
+    background: #FFF;
+}
+
+.videoplayer {
+    text-align: center
+    
+}
+
+h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
 h1 {
     background-color: #FFAB00;
     color: #000;
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
-    font-weight: 300;
     line-height: 40px;
     margin: 0px;
     padding: 20px;
     position: relative;
     text-transform: uppercase;
-    top: 120px;
+    top: 80px;
     width: 53%; 
     /*Ide kéne egy olyan megoldás, hogy a szöveg hosszúságához mérten lője be a csík hosszúságát*/
 }
 
 h2 {
     color: #000;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
     position: relative;
     left: 0px;
     margin: 0;
-    text-transform: uppercase;
 }
 
 h3 {
     color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
+    font-size: 18px;
     position: relative;
     left: 0px;
     letter-spacing: 2px;
     margin: 0;
-    text-transform: uppercase;
 }
 
 p {
     color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 100;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 26px;
     min-width: 200px;
     max-width: 100%;
     min-height: 200px;
     position: relative;
+    
 }
