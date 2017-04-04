@@ -53,8 +53,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #c7254e;
-    color: white;
+    /* background-color: #c7254e; - legyen kocka háttér a gombnál */
+    color: #c7254e;
 }
 
 .content-box {
