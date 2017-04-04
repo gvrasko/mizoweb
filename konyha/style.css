@@ -13,9 +13,8 @@ body {
     height: 80px;
     margin: auto;
 }
-
 .menu {
-    background-color: #5cb85c;
+    background-color: #FFF;
     text-align: center;
     margin: auto;
     width: 65%;
@@ -27,7 +26,11 @@ body {
 }
 
 .menu ul {
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 .menu li {
     
@@ -38,7 +41,20 @@ body {
     letter-spacing: 2px;
     margin: 10px;
     position: relative;
-   
+    float: left;
+}
+
+li a {
+    display: compact;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #c7254e;
+    color: white;
 }
 
 .content-box {
@@ -60,22 +76,15 @@ body {
     top: 0px;
     height: 500px;
 }
-.content-body-header {
-    margin: 0 auto;
-    width: 100%;
-    background-color: #fff;
+
+.content-frame {
+    background: #FFF;
+    
 }
 .content-body {
     margin: 0 auto;
     width: 100%;
     position: relative;
-    background-color: #fff;
-}
-.content-video {
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-    text-align: center;
     background-color: #fff;
 }
 h1 {
@@ -125,8 +134,7 @@ p {
     font-weight: 100;
     line-height: 34px;
     min-width: 200px;
-    max-width: 95%;
+    max-width: 100%;
     min-height: 200px;
     position: relative;
-    left: 30px;
 }
