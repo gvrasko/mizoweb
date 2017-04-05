@@ -14,41 +14,42 @@ body {
     margin: auto;
 }
 .menu { /*Itt meg kéne oldani, hogy ha átméretezzük kicsire a böngészők, akkor a szöveg ne lógjon ki a keretből. Arányosan csökkenjen a mérete a kerettel.*/
-    background-color: #398439;
+    background-color: black;
     text-align: center;
     margin: auto;
     width: 65%;
-    height: 105%;
+    height: 150%;
     font-family: 'Lobster', sans-serif;
     display: flex;
 }
-
+/*
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #c7254e;
-}
+} a törlésük nem hozott semmilyen változást*/
+
 .menu li {
     display: inline-block;
-    font-family: 'Lobster', sans-serif;
-    font-size: 30px;
+    font-family: Lobster, sans-serif;
+    font-size: 1.3vw; /*Így tudtam csak elérni, hogy a weboldal átméretezésénél ne lógjon ki a sávból. Nem biztos, hogy a legjobb megoldás*/
     letter-spacing: 5px;
     margin: auto;
 }
 
 li a {
     display: compact;
-    color: #FFF;
+    color: #FFAB00;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    /* background-color: #c7254e; - legyen kocka háttér a gombnál */
-    color: yellow;
+    /*background-color: #000; - legyen kocka háttér a gombnál */
+    color: #FFF;
 }
 
 .content-box {
@@ -92,7 +93,7 @@ li a:hover {
 
 h1, h2, h3, p {
     font-family: Lato, sans-serif;
-    
+    font-weight: normal;
 }
 
 h1 {
