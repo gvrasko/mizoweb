@@ -13,6 +13,7 @@ body {
     width: 65%;
     height: 200px;
     margin: auto;
+    overflow: hidden;
 }
 .menu { /*Itt meg kéne oldani, hogy ha átméretezzük kicsire a böngészők, akkor a szöveg ne lógjon ki a keretből. Arányosan csökkenjen a mérete a kerettel.*/
     background-color: black;
@@ -93,8 +94,22 @@ li a:hover {
 .videoplayer {
     position: relative;
     text-align: center;
-
 }
+
+.videoplayer {
+	position:relative;
+	padding-bottom: 30%;
+	height:0;
+	overflow:hidden;
+}
+
+/*.videoplayer iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}*/
 
 
 
@@ -115,6 +130,7 @@ h1 {
     text-transform: uppercase;
     top: 80px;
     width: 53%; 
+    overflow: hidden;
     /*Ide kéne egy olyan megoldás, hogy a szöveg hosszúságához mérten lője be a csík hosszúságát*/
 }
 
@@ -137,4 +153,12 @@ p {
     min-height: 200px;
     position: relative;
     
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
 }
