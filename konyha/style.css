@@ -5,12 +5,13 @@ body {
 }
 
 .logo {
-    background-color: #FFAB00;
+    /*background-color: #FFAB00;*/
+    background-image: url("http://www.ikea.com/gb/en/images/rooms/ikea-a-traditional-kitchen-for-the-modern-life__1364308465964-s4.jpg");
     text-align: center;
     position: relative;
     z-index: 999;
     width: 65%;
-    height: 100px;
+    height: 200px;
     margin: auto;
 }
 .menu { /*Itt meg kéne oldani, hogy ha átméretezzük kicsire a böngészők, akkor a szöveg ne lógjon ki a keretből. Arányosan csökkenjen a mérete a kerettel.*/
@@ -18,7 +19,6 @@ body {
     text-align: center;
     margin: auto;
     width: 65%;
-    height: 150%;
     font-family: 'Lobster', sans-serif;
     display: flex;
 }
@@ -63,6 +63,11 @@ li a:hover {
     width: 65%;
     height: 450px;
 }
+
+.pic {
+    text-align: center;
+    position: relative;
+}
 .content-header {
     background-image: url("images/curry.jpg");
     background-position: center;
@@ -70,13 +75,14 @@ li a:hover {
     position: relative;
     top: 0px;
     height: 500px;
+    z-index: 999;
 }
 .content-body {
     margin: 0 auto;
     width: 100%;
     position: relative;
     top: -20px; /*Ide csak beigazítottam, de kéne egy olyan megoldást találni, ami automatikusan beigazítja az elötte lévő div után*/
-    background-color: #FFAB00;
+    background-color: #FFF;
 }
 .content {
     width: 97%;
@@ -85,6 +91,7 @@ li a:hover {
 }
 
 .videoplayer {
+    position: relative;
     text-align: center;
 
 }
@@ -114,12 +121,6 @@ h1 {
 h2 {
     color: #000;
     font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    position: relative;
-    left: 0px;
-    margin: 0;
-}
 
 h3 {
     color: #000;
