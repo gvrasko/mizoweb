@@ -11,10 +11,15 @@ body {
     position: relative;
     z-index: 999;
     width: 65%;
-    height: 200px;
     margin: auto;
     overflow: hidden;
 }
+.logo-img {
+    max-height: 100%;
+    max-width: 100%; 
+    /*Nem találom a megoldást arra, hogy a fejlécben a logó mérete arányosan változzon a böngésző átméretezése esetén*/
+}
+
 .menu { /*Itt meg kéne oldani, hogy ha átméretezzük kicsire a böngészők, akkor a szöveg ne lógjon ki a keretből. Arányosan csökkenjen a mérete a kerettel.*/
     background-color: black;
     text-align: center;
@@ -152,13 +157,30 @@ p {
     max-width: 100%;
     min-height: 200px;
     position: relative;
-    
 }
 
-#rcorners1 {
-    border-radius: 25px;
-    background: #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
+/* INNEN KEZDŐDIK A FOOTER RÉSZE*/
+
+.container {
+    max-width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
 }
+
+.clearfix {
+    clear: both;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 10;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
