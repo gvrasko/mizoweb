@@ -4,12 +4,12 @@ function bohocosJatek() {
 }
 else {
     alert( 'Akkor te egy szamár vagy!' );
-}
+}}
 
 function buziJatek() {
-    var nev = document.getElementById(keresztnev).value;
+    var nev = document.getElementById("keresztnev").value;
     if ( nev == 'Viktor' ) {
         alert( 'Sajnáljuk, te bizony buzi vagy! :(');
     } else {
         alert( 'Szerencsére veled minden rendben! További szép napot! :)');
-    }
+    } }
