@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Koncertválasztó</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="list">
+            <p>Hol lesz a következő Rózsaszín Pittbull koncert:</p>
+        <select id="lista" size=”1”>
+            <option value="valassz">Válassz dátumot:</option>
+            <option value="a">Április 8.</option>
+            <option value="b">Április 14.</option>
+             <option value="c">Április 15.</option>
+         </select><br>
+        </div>
+        <div id="js">
+            <script type="text/javascript">
+                var month = document.getElementById("lista").value;
+                if(month=="valassz") {
+                      document.write.('Nem választottál hónapot!');}
+                else if(month=a) {
+                     document.write.('Komló'); }
+                else if(month=b) {
+                      document.write.('Keszthely'); }
+                else if(month=c) {
+                       document.write.('Győr'); }
+             </script>
+        </div>
+    </body>
+</html>
